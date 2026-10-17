@@ -72,9 +72,7 @@ function App() {
           </div>
         </Modal>
         <Routes>
-          <Route path="/" element={<Navigate to="/dashboard" replace />} />
-
-          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/" element={<Dashboard />} />
 
           <Route path="/accounts" element={<Accounts />} />
 
